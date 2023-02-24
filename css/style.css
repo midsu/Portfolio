@@ -342,12 +342,18 @@ input {
     height: 100%;
     background-color: var(--box-color);
     z-index: -1;
+    transform-origin: center;
     transform: scale(0);
     border-radius: .25rem;
+    transition: .3s;
 }
 
 .button:hover::after {
     transform: scale(1);
+}
+
+.button_icon {
+    font-size: 1.25rem;
 }
 
 /*===== About Section =====*/
