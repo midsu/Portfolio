@@ -418,6 +418,10 @@ input {
     font-size: var(--small-font-size);
 }
 
+.about__subtitle {
+    font-size: var(--small-font-size);
+}
+
 /*===== Qualification Section =====*/
 
 
