@@ -418,10 +418,6 @@ input {
     font-size: var(--small-font-size);
 }
 
-.about__subtitle {
-    font-size: var(--small-font-size);
-}
-
 /*===== Qualification Section =====*/
 .qualification__container {
     grid-template-columns: repeat(2,340px);
@@ -438,6 +434,19 @@ input {
 .timeline__item {
     position: relative;
     padding-left: 3rem;
+    grid-template-columns: repeat(2, 340px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.qualification__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-2);
+}
+
+.timeline__item {
+    position: relative;
     margin-bottom: var(--mb-2-5);
 }
 
