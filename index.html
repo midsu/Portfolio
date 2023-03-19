@@ -235,7 +235,8 @@
         </section>
         <!--===== Skills =====-->
         <section class="skills section" id="skills">
-            <h2 data-heading="My Abilities" class="section__titles">Projects</h2>
+            <h2 data-heading="Personal Work" class="section__title">Projects</h2>
+
             <div class="skills__container container grid">
                 <div class="skills__tabs">
                     <div class="skills__header skills__active" data-target="#frontend">
@@ -280,7 +281,7 @@
                 </div>
 
                 <div class="skills__content">
-                    <div class="skills__group skills__active" id="#frontend">
+                    <div class="skills__group skills__active" data-content id="frontend">
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
@@ -301,10 +302,13 @@
                                     <span class="skills__percentage" style="width: 80%;"></span>
                                 </div>
                             </div>
-
+                        </div>
+                    </div>
+                    <div class="skills__group" data-content id="design">
+                        <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h2 class="skills__name">PYTHON</h2>
+                                    <h2 class="skills__name">R</h2>
                                     <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
@@ -321,10 +325,11 @@
                                     <span class="skills__percentage" style="width: 80%;"></span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
 
-                    <div class="skills__group" data-content id="#design">
+                    <div class="skills__group" data-content id="backend">
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
@@ -359,42 +364,7 @@
                         </div>
                     </div>
 
-                    <div class="skills__group" data-content id="#backend">
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">R</h2>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width: 80%;"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">RStudio</h2>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width: 80%;"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h2 class="skills__name">PYTHON</h2>
-                                    <span class="skills__number">80%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage" style="width: 80%;"></span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="skills__group" data-content id="#Name">
+                    <div class="skills__group" data-content id="Name">
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
@@ -432,7 +402,128 @@
             </div>
         </section>
         <!--===== Work =====-->
-        
+        <section class="work section" id="work">
+            <h2 data-heading="My Portfolio" class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__items active-work">All</span>
+                <span class="work__items">Web</span>
+                <span class="work__items">App</span>
+                <span class="work__items">Design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="assets/img/site_under_construction1.png" alt="" class="work_img">
+                    <h3 class="work__title">Vaccination Rate</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work-button-icon"></i>
+                    </span>
+                    <div class="portoflio__item-details">
+                        <h3 class="details__title">Covid Vaccination Rate</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil quibusdam at quos?</p>
+                        <ul class="details__info">
+                            <li>Created - <span> # dec yr#</span></li>
+                            <li>Technologies - <span>R RStudio</span></li>
+                            <li>View - <a href="#">https://github.com/midsu/vaccinationRate</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/under_construction2.png" alt="" class="work_img">
+                    <h3 class="work__title">MPI-Parallelized-NLP</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work-button-icon"></i>
+                    </span>
+                    <div class="portoflio__item-details">
+                        <h3 class="details__title">An algorithm that uses MPI commands and NLP to summeries text files</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil quibusdam at quos?</p>
+                        <ul class="details__info">
+                            <li>Created - <span> # dec yr#</span></li>
+                            <li>Technologies - <span>R RStudio</span></li>
+                            <li>View - <a href="#">https://github.com/midsu/MPI-Parallelized-NLP</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/under_construction3.png" alt="" class="work_img">
+                    <h3 class="work__title">Bernstein-s-conditions-for-Data-Dependencies</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work-button-icon"></i>
+                    </span>
+                    <div class="portoflio__item-details">
+                        <h3 class="details__title">Distributed computing - Bernstein’s conditions for Data Dependencies</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil quibusdam at quos?</p>
+                        <ul class="details__info">
+                            <li>Created - <span> # dec yr#</span></li>
+                            <li>Technologies - <span>R RStudio</span></li>
+                            <li>View - <a href="#">https://github.com/midsu/Bernstein-s-conditions-for-Data-Dependencies</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/under_construction4.png" alt="" class="work_img">
+                    <h3 class="work__title">Dynamic vs. Exhaustive</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work-button-icon"></i>
+                    </span>
+                    <div class="portoflio__item-details">
+                        <h3 class="details__title">implementation of two algorithms that both solve the crane unloading problem</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil quibusdam at quos?</p>
+                        <ul class="details__info">
+                            <li>Created - <span> # dec yr#</span></li>
+                            <li>Technologies - <span>R RStudio</span></li>
+                            <li>View - <a href="#">https://github.com/midsu/vaccinationRate</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/under_construction5.png" alt="" class="work_img">
+                    <h3 class="work__title">Clustering a Sensor network using NIC addresses</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work-button-icon"></i>
+                    </span>
+                    <div class="portoflio__item-details">
+                        <h3 class="details__title">implemented one algorithm related to hash tables that can aid various distributed algorithms to group sensors</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil quibusdam at quos?</p>
+                        <ul class="details__info">
+                            <li>Created - <span> # dec yr#</span></li>
+                            <li>Technologies - <span>R RStudio</span></li>
+                            <li>View - <a href="#">https://github.com/midsu/Algorithm_CPSC_335/tree/main/Project-3</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="work__card">
+                    <img src="assets/img/under_construction6.png" alt="" class="work_img">
+                    <h3 class="work__title">Greedy vs Exhaustive</h3>
+                    <span class="work__button">Demo
+                        <i class="uil uil-arrow-right work-button-icon"></i>
+                    </span>
+                    <div class="portoflio__item-details">
+                        <h3 class="details__title">implementedd and compared two algorithms that solve the shipping problem</h3>
+                        <p class="details__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            Nihil quibusdam at quos?</p>
+                        <ul class="details__info">
+                            <li>Created - <span> # dec yr#</span></li>
+                            <li>Technologies - <span>R RStudio</span></li>
+                            <li>View - <a href="#">https://github.com/midsu/Algorithm_CPSC_335/tree/main/Project-2</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Portfolio Popup -->
         
         <!--===== Services =====-->
