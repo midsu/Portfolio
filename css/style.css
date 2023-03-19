@@ -563,6 +563,10 @@ input {
     border-radius: .25rem;
 }
 
+.skills__bar {
+    background-color: var(--box-color);
+}
+
 .skills__percentage {
     display: block;
     background-color: var(--skin-color);
